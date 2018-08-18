@@ -40,6 +40,8 @@ h3{
     color: #E15200;
 }
 
+
+
 .breedte{
     width:100%;
     display: block;
@@ -49,7 +51,7 @@ h3{
 }
 
 .vraag{
-    color:#3A68A8s;
+    color:#3A68A8;
     
 }
 .carousel-caption {
@@ -73,7 +75,7 @@ p {
 }
 
 .verplicht{
-    color: #000000;
+    color: red;
 }
 
 
@@ -95,7 +97,7 @@ article{
 
 .kader{
     background-color: white;
-    border: 10px solid #000000;
+    border: 10px solid rgb(228,179,208);
     margin-top: 5px;
 }
 
@@ -153,20 +155,20 @@ tr{
 
 
 .navbar-light .navbar-nav .active > .nav-link,{
-    color:#3A68A8;
+    color:#ffff;
     text-decoration: none;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color:#3A68A8;
-}
-
-.navbar-light .navbar-nav .nav-link:hover{
     color:#ffffff;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#3A68A8;
+}
+
 .navbar-light .navbar-nav .nav-link:active{
-    color: rgb(234,182,24);
+    color:rgb(234,182,24);
 
 }
 
@@ -268,6 +270,12 @@ ul{
     border-color: #3A68A8;
 }
 
+.dagen {
+    color: #fff;
+    background-color:rgb(228,179,208);
+    border-color:rgb(228,179,208);
+}
+
 .form-control {
     color: white;
     background-color: #3A68A8;
@@ -277,8 +285,6 @@ ul{
 }
 .form-control:focus {
     color:#000000;
-    background-color: #ffffff;
-    box-shadow:#3A68A8; 
 }
 .form-control::placeholder {
     color:#ffffff;
@@ -289,11 +295,11 @@ ul{
     z-index: -1;
     opacity: 0; 
 }
-.custom-control-input:focus ~ .custom-control-indicator {
-        box-shadow: none; 
+.custom-control-input:focus ~ .custom-control-indicator{
+        box-shadow:grey; 
 }
-.custom-control-input:active ~ .custom-control-indicator {
-        background-color: rgb(127,119,112); 
+.custom-control-input:active ~ .custom-control-indicator{
+        background-color:grey; 
 }
 
 
