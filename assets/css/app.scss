@@ -40,6 +40,9 @@ h3{
     color: #E15200;
 }
 
+.vakje{
+    color:grey;
+}
 
 
 .breedte{
@@ -136,16 +139,15 @@ a:hover{
     padding-top: 15px;
 }
 
-
-tr{
-    background-color: #000000;
-    color: white;
+.custom-control-description{
+    margin-left: 20px;
 }
 
 
 .navigatie{
-    background-color:#3A68A8;
+    background-color:rgb(228,179,208);
     margin-bottom: 15px;
+    color:#3A68A8;
 }
 
 .nav-item{
@@ -168,9 +170,11 @@ tr{
 }
 
 .navbar-light .navbar-nav .nav-link:active{
+    background-color: #ffffff;
     color:rgb(234,182,24);
 
 }
+
 
 .btn-secondary{
     width: 30px;
@@ -186,7 +190,7 @@ tr{
     font-size:12px;
 }
 .btn-primary:hover {
-    background-color: rgb(234,182,24);
+    background-color:rgb(234,182,24);
     border-color: transparent; 
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -277,7 +281,7 @@ ul{
 }
 
 .form-control {
-    color: white;
+    color:lightblue;
     background-color: #3A68A8;
     border: none;
     border-radius: 0;
@@ -287,7 +291,7 @@ ul{
     color:#000000;
 }
 .form-control::placeholder {
-    color:#ffffff;
+    color:lightblue;
 }
 
 .custom-control-input {
@@ -296,10 +300,10 @@ ul{
     opacity: 0; 
 }
 .custom-control-input:focus ~ .custom-control-indicator{
-        box-shadow:grey; 
+        box-shadow:none;
 }
 .custom-control-input:active ~ .custom-control-indicator{
-        background-color:grey; 
+        background-color:#3A68A8; 
 }
 
 
